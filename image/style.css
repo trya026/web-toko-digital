@@ -1,0 +1,145 @@
+*,
+html {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #eaeaea;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 25px;
+}
+.judul-navbar{
+    color: #444;
+    font-size: 22px;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-left: 15px;
+}
+.nav-navbar {
+    margin: 20px 15px 0px 0px;
+}
+.ul-navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+}   
+.lia-navbar {
+    text-decoration: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: orange;
+    padding: 6px;
+    font-size: 22px;
+    flex-wrap: wrap;
+}
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    height: 350px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    /* width: 100%;
+    box-sizing: border-box; */
+}
+.title-content-1 h1{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    color: #444;
+}
+.title-content-1 p{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 17px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    color: #444;
+}        
+.a-content-1 a{
+    text-decoration: transparent;
+    color: white;
+    background-color: orange;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+img{
+    width: 320px;
+    height: 250px;
+}
+.isi-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.background-image, 
+.background-image-2,
+.background-image-3,
+.background-image-4{
+    background-color: whitesmoke;
+    width: 430px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #555;
+    gap: 10px
+}
+.name h3,
+.name-2 h3,
+.name-3 h3,
+.name-4 h3 {
+    font-size: 30px;
+    color: #444;
+}
+.name p,
+.name-2 p,
+.name-3 p,
+.name-4 p {
+    font-size: 25px;
+    color: #444;
+    padding: 20px;
+}
+.sell-button a,
+.sell-button-2 a,
+.sell-button-3 a,
+.sell-button-4 a {
+    text-decoration: transparent;
+    color: white;
+    background-color: orange;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 22px;
+}
+.isi-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.last{
+    background-color: beige;
+    border-radius: 8px;
+    padding: 30px;
+    /* width: 100%;
+    box-sizing: border-box; */
+}
+.last h3 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 32px;
+    color: #444;
+}
